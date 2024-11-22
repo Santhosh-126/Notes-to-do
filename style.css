@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+#secondpage{
+    display: none;
+    position: absolute;
+    z-index: 4;
+    top: 1px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.first a , button{
+    font-size: xx-large;
+    height: 50vh;
+    width: 100%;
+    background-color: aquamarine;
+    border: none;
+    font-weight: 700;
+
+}
+#b{
+    font-size: xx-large;
+    background: #000;
+    color: aquamarine;
+    font-weight: 700;
+
+}
+*{
+    margin: 0;
+    
+}
+
+input{
+    padding: 5px 10px;
+    font-size: large;
+    border: 2px solid;
+    box-shadow: 0 3px 3px 0px rgb(0, 0, 0);
+}
+input:hover{
+    border: 2px solid;
+    box-shadow: 0 3px 3px 0px rgb(0, 0, 0);
+
+}
+
+li{
+    list-style: none;
+    font-size: x-large;
+}
+
+#add{
+    background-color: grey;
+}
+#del{
+    background-color: red;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    right: 30px;
+    border-radius: 5px;
+    
+    
+}
+#tick{
+    zoom: 2.3;
+    accent-color: aquamarine;
+    position: absolute;
+    right: 50px;  
+    border-radius: 50%; 
+}
+
+#top{
+    background-color: aquamarine;
+    padding: 20px;
+    height: 20vh;
+    text-align: center;
+}
+#buttom{
+    background-color: rgb(0, 0, 0);
+    color: aquamarine;
+    height: 80vh;
+}
+#home{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    padding: 3px 15px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+#thirdpage{
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 1px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container1{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    font-size: small;
+}
+.container{
+    background-color: black;
+    width: 100vw;
+    margin: 0px;
+    height: 100vh;
+}
+p{
+    text-align: justify;
+}
+.container button{
+    padding: 5px 10px;
+    background-color: black;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.pop button{
+    padding: 5px 10px;
+    background-color: black;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+#head{
+    background-color: white;
+    padding: 10px;
+}
+
+.pop{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.23);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0px;
+    display: none;
+    z-index: 2;
+    
+}
+
+.pop-box {
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* To stack form elements neatly */
+}
+
+.pop-box input{
+    padding: 20px 140px 0px 00px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    box-shadow: none
+
+}
+.pop-box input:focus ,textarea:focus{
+    outline: none;
+}
+.pop-box input::placeholder , textarea::placeholder{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.pop-box textarea{
+    padding: 20px 195px 0px 00px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+#insert{
+    font-size: 37px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+@media (max-width:800px){
+    .container1{
+        width: 100%;
+    }
+    .container{
+        margin-right: 60px;
+    }
+
+}

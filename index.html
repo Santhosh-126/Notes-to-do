@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>NOTES TO-DO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="first">
+    <a id="aa" href="#"><button id="a" onclick="opentodo()">TO-DO LIST</button></a><br>
+    <a id="bb" href="#"><button id="b" onclick="opennote()" >NOTE IT</button></a>
+    </div>
+
+
+    <div id="secondpage">
+        <div id="hero">
+            <div id="top">
+                <h1>TO-DO LIST APP -JS</h1><br>
+        
+            <input id="input" type="text" value="">
+            <input onclick="add()" id="add" type="button" value="Add">
+            </div>
+            <div id="buttom">
+                <ul id="item">
+                    <br>
+                    <li>
+                        Drink Water 
+                        <input type="button"  onclick="del(event)" id="del" value="Remove">
+                        <!-- <input type="button"
+                        <input onclick="del(event)" id="del">&#x1F5D1; </button> -->
+                        <input id="tick" type="checkbox">
+    
+                    </li>
+                </ul>
+            </div>
+            <script src="script.js"></script>
+        </div>
+        <a href="index.html"><button id="home">&#x2302;</button></a>
+
+    </div>
+
+
+    <div id="thirdpage">
+        <center><h1 id="head">Notes</h1></center>
+        <div class="container" >
+            <div class="container1">
+                <h1>Ironman</h1>
+                <h3>Tony Stark</h3>
+                <p>Iron Man, aka Tony Stark, is a superhero from Marvel Comics. He's a genius billionaire who builds high-tech suits of armor after being injured and captured by terrorists. The suits give him superhuman abilities like flight, advanced weapons, and immense strength.  
+    
+                    In the Marvel movies, Robert Downey Jr. brought him to life, making him one of the most popular heroes. Tony starts as a self-centered businessman but grows into a selfless hero, ultimately sacrificing himself to save the universe. He's a symbol of brains, courage, and redemption.</p>
+                <button class="btn" onclick="remove(event)">Delete</button>
+            </div>
+            <div class="container1">
+                <h1>Batman</h1>
+                <h3>Bruce Wayne</h3>
+                <p>Batman, or Bruce Wayne, is a superhero from DC Comics. He’s a billionaire from Gotham City who becomes a vigilante after his parents are murdered.  
+    
+                    Batman doesn’t have superpowers but relies on his genius, martial arts skills, and gadgets like the Batmobile and Batarangs. He’s known as the "World’s Greatest Detective" and fights iconic villains like Joker, Penguin, and Catwoman.  
+                    
+                    He’s serious, works mostly alone, and has a strong rule against killing. Batman’s story shows how determination and intelligence can turn tragedy into a force for justice.</p>
+                <button class="btn" onclick="remove(event)">Delete</button>
+            </div>
+            <button class="btn" id="insert" onclick="plus()">+</button>
+            <a href="index.html"><button id="home">&#x2302;</button></a>
+    
+        </div>
+      
+        <div class="pop" style="display: none;">
+            <div class="pop-overlay"></div>
+            <div class="pop1">
+                <div class="pop-box">
+                    <form>
+                        <h1>Add Here</h1>
+                        <input type="text" placeholder="Name" id="bname" value="" ><br>
+                        <input type="text" placeholder="Author" id="bauthor" value=""><br>
+                        <textarea name="text" placeholder="Message" id="bmessage" ></textarea><br>
+                        <button class="btn" id="joint" onclick="join(event)">Add</button>
+                        <button class="btn" onclick="cancel(event)">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+      
+    </div>
+</body>
+</html>
+
+<script>
+
+
+</script>
